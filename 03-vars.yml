@@ -6,4 +6,3 @@
     - name: Print the URL variable
       ansible.builtin.debug:
         msg: URL - {{ URL }}
-    

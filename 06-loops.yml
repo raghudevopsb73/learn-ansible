@@ -18,4 +18,3 @@
         - { name: orange, quantity: 200 }
         - { name: grape, quantity: 300 }
         - { name: banana, quantity: 500 }
-  

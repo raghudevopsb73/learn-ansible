@@ -2,8 +2,11 @@
   hosts: localhost
   connection: local
   vars:
-    fruit_name: apple
-    quantity: 100
+    fruits:
+      - name: apple
+        quantity: 100
+      - name: orange
+        quantity: 200
   tasks:
     - name: Copy file
       ansible.builtin.template:

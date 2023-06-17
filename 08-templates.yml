@@ -3,9 +3,9 @@
   connection: local
   vars:
     fruit_name: apple
-    quantity: 100 
+    quantity: 100
   tasks:
     - name: Copy file
-      ansible.buitin.template:
+      ansible.builtin.template:
         src: test.txt
         dest: /tmp/test.txt

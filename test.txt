@@ -1,9 +1,5 @@
 {% for item in fruits %}
-
 Fruit Name = {{ item.name }}
 Quantity = {{ item.quantity }}
 
 {% endfor %}
-
-
-
